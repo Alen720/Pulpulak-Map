@@ -95,7 +95,6 @@ export const PulpulakMap = () => {
         {userPos && (
           <>
             <Marker position={userPos} icon={userIcon}>
-              <Popup>📍</Popup>
             </Marker>
             <RecenterMap position={userPos} />
           </>
